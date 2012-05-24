@@ -14,4 +14,11 @@ Currently versions exists for:
 * TextMate
 * (working on a version for Jetbrains AppCode)
 
-If you've made another version of it, please drop me a note and I'll add a reference to it from here.
+If you've made another version of it, please fork this project and send me a pull request.
+
+Contributors:
+Initial Xcode theme: Mikael Hallendal
+iTerm2 and Coda 2: Luís Couto
+Terminal: Cameron Spickert
+TextMate: Cormac Relf
+Vim: Mikkel Malmberg
