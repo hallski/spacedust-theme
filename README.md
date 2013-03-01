@@ -14,7 +14,7 @@ Currently versions exists for:
 * Terminal.app (by Cameron Spickert)
 * iTerm 2 (by Luís Couto)
 * Coda 2 (by Luís Couto)
-* TextMate (by Cormac Relf)
+* TextMate/Sublime Text 2 (by Cormac Relf)
 * Vim (by Mikkel Malmberg)
 
 If you've made another version of it, please fork this project and send me a pull request.
