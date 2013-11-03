@@ -2,7 +2,7 @@ This is the Spacedust color theme repository.
 
 Initially it was a color theme I created for Xcode and looks like this:
 
-<img src="http://simplyhacking.com/images/posts/spacedust-xcode-theme.png" width="400" ALT=""/>
+<img src="http://micke.hallendal.net/images/posts/spacedust-xcode-theme.png" width="400" ALT=""/>
 
 After you've checked out the repository, be sure to execute:
 `git submodule update --init` 
