@@ -1,55 +1,57 @@
 @import "syntax-variables";
 
-.editor {
+atom-text-editor, :host {
+
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-}
 
-.editor .gutter {
-  background-color: @syntax-gutter-background-color;
-  color: @syntax-gutter-text-color;
-}
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+  }
 
-.editor .gutter .line-number.cursor-line {
-  background-color: @syntax-gutter-background-color-selected;
-  color: @syntax-gutter-text-color-selected;
-}
+  .gutter .line-number.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+    color: @syntax-gutter-text-color-selected;
+  }
 
-.editor .gutter .line-number.cursor-line-no-selection {
-  color: @syntax-gutter-text-color-selected;
-}
+  .gutter .line-number.cursor-line-no-selection {
+    color: @syntax-gutter-text-color-selected;
+  }
 
-.editor .wrap-guide {
-  color: @syntax-wrap-guide-color;
-}
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+  }
 
-.editor .indent-guide {
-  color: @syntax-indent-guide-color;
-}
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
 
-.editor .invisible-character {
-  color: @syntax-invisible-character-color;
-}
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
 
-.editor .search-results .marker .region {
-  background-color: transparent;
-  border: @syntax-result-marker-color;
-}
+  .search-results .marker .region {
+    background-color: transparent;
+    border: @syntax-result-marker-color;
+  }
 
-.editor .search-results .marker.current-result .region {
-  border: @syntax-result-marker-color-selected;
-}
+  .search-results .marker.current-result .region {
+    border: @syntax-result-marker-color-selected;
+  }
 
-.editor.is-focused .cursor {
-  border-color: @syntax-cursor-color;
-}
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
 
-.editor.is-focused .selection .region {
-  background-color: @syntax-selection-color;
-}
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: rgba(0, 0, 0, 0.07);
+  .line-number.cursor-line-no-selection,
+  .line.cursor-line {
+    background-color: rgba(0, 0, 0, 0.07);
+  }
 }
 
 .comment {
