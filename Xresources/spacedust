@@ -1,0 +1,39 @@
+*URxvt.borderColor: #05242a
+*background:        #05242a
+*foreground: #ecf0c1
+
+! black
+*color0: #244F61
+*color8: #244F61
+
+! red
+*color1: #E35B00
+*color9: #E35B00
+
+! green
+*color2: #008080
+*color10: #008080
+
+! yellow
+*color3: #EBC562
+*color11: #EBC562
+
+! blue
+*color4: #009FC5
+*color12: #009FC5
+
+! magenta
+*color5: #4A9D8F
+*color13: #4A9D8F
+
+! cyan
+*color6: #09699D
+*color14: #09699D
+
+! white
+*color7: #ECF0C1
+*color15: #ECF0C1
+
+! underline when default
+*colorUL: #CB7636
+
