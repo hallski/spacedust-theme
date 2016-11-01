@@ -31,6 +31,7 @@ Colors used:
 * Dark yellow: #EBC562 (keywords)
 * Light yellow: #ECF0C1 (default foreground)
 * Brown: #6E5346 (comments)
+* Light Brown: #CA763C (variables)
 * Background: #041E23
 * Gutter background: #0F2930
 * Line number: #244F61
