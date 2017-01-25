@@ -1,6 +1,6 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor {
 
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -31,12 +31,12 @@ atom-text-editor, :host {
     color: @syntax-invisible-character-color;
   }
 
-  .search-results .marker .region {
+  .search-results .syntax--marker .region {
     background-color: transparent;
     border: @syntax-result-marker-color;
   }
 
-  .search-results .marker.current-result .region {
+  .search-results .syntax--marker.current-result .region {
     border: @syntax-result-marker-color-selected;
   }
 
@@ -54,90 +54,93 @@ atom-text-editor, :host {
   }
 }
 
-.comment {
+.syntax--comment {
   color: #6E5346;
 }
 
-.string {
+.syntax--string {
   color: #4A9D8F;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #4A9D8F;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: #4A9D8F;
 }
 
-.constant.character, .constant.other {
+.syntax--constant.syntax--character,
+.syntax--constant.syntax--other {
   color: #4A9D8F;
 }
 
-.variable.language, .variable.other {
+.syntax--variable.syntax--language,
+.syntax--variable.syntax--other {
   color: #CB7636;
 }
 
-.keyword {
+.syntax--keyword {
   color: #EBC562;
 }
 
-.storage {
+.syntax--storage {
   color: #EBC562;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   color: #E35B00;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   color: #E35B00;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: #009FC5;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   color: #305F65;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: #EBC562;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #305F65;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: #039FC5;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: #4A9D8F;
 }
 
-.support.type, .support.class {
+.syntax--support.syntax--type,
+.syntax--support.syntax--class {
   color: #E35B00;
 }
 
-.support.other.variable {
+.syntax--support.syntax--other.syntax--variable {
   color: #CB7636;
 }
 
-.invalid {
+.syntax--invalid {
   color: #000000;
 }
 
-.markup.deleted {
+.syntax--markup.syntax--deleted {
   color: #E35B00;
 }
 
-.markup.inserted {
+.syntax--markup.syntax--inserted {
   color: #009FC5;
 }
 
-.markup.changed {
+.syntax--markup.syntax--changed {
   color: #4A9D8F;
 }
