@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.0",
   "description": "Spacedust syntax theme for Atom",
-  "repository": "https://github.com/mhallendal/spacedust-theme",
+  "repository": "https://github.com/hallski/spacedust-theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
