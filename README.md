@@ -18,6 +18,7 @@ Currently versions exists for:
 * Coda 2 (by Luís Couto)
 * TextMate/Sublime Text 2 (by Cormac Relf)
 * Vim (by Mikkel Malmberg)
+* Visual Studio Code (by Tomasz Wójcik)
 
 If you've made another version of it, please fork this project and send me a pull request.
 
