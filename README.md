@@ -13,8 +13,6 @@ Currently versions exists for:
 
 * Xcode (by Mikael Hallendal)
 * Terminal.app (by Cameron Spickert)
-* iTerm 2 (by Luís Couto)
-* Coda 2 (by Luís Couto)
 * TextMate/Sublime Text 2 (by Cormac Relf)
 * Vim (by Mikkel Malmberg)
 * Visual Studio Code (by Tomasz Wójcik)
