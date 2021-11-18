@@ -20,18 +20,21 @@ Currently versions exists for:
 If you've made another version of it, please fork this project and send me a pull request.
 
 Colors used:
-* Dark green: #008080 (typedef)
-* Light green: #4A9D8F (strings)
-* Dark orange: #E35B00 (class/interface/protocol names)
-* Light orange: #CB7636 (property)
-* Dark blue: #09699D (macros)
-* Light blue: #009FC5 (function name)
-* Dark yellow: #EBC562 (keywords)
-* Light yellow: #ECF0C1 (default foreground)
-* Brown: #6E5346 (comments)
-* Light Brown: #CA763C (variables)
-* Background: #041E23
-* Gutter background: #0F2930
-* Line number: #244F61
-* Active row background: #0F2930
-* Selection background: #06496F
+
+| Color name   | Hex code | Usage                                  |
+| :----------: | -------- | :--------------------------------------|
+| Dark green   | #008080  | Typedef
+| Light green  | #4A9D8F  | Strings, numbers, value types
+| Dark orange  | #E35B00  | Class, interface, protocol, module name
+| Light orange | #CB7636  | Properties
+| Dark blue    | #09699D  | Macros
+| Light blue   | #009FC5  | Function and method names
+| Dark yellow  | #EBC562  | Keywords
+| Light yellow | #ECF0C1  | Default foreground
+| Brown        | #6E5346  | Comments
+| Light Brown  | #CA763C  | Variables and consts
+| -            | #041E23  | Background
+| -            | #0F2930  | Gutter background
+| -            | #244F61  | Line number
+| -            | #0F2930  | Active row background
+| -            | #06496F  | Selection background
