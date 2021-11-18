@@ -1,4 +1,0 @@
-Installation instructions:
-
-mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ 
-cp Spacedust.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
