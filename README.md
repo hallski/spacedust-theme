@@ -12,7 +12,6 @@ After you've checked out the repository, be sure to execute:
 Currently versions exists for:
 
 * Xcode (by Mikael Hallendal)
-* AppCode (by Mikael Hallendal)
 * Terminal.app (by Cameron Spickert)
 * iTerm 2 (by Luís Couto)
 * Coda 2 (by Luís Couto)
