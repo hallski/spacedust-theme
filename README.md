@@ -18,6 +18,7 @@ Currently versions exists for:
 * TextMate/Sublime Text 2 (by Cormac Relf)
 * Vim (by Mikkel Malmberg)
 * Visual Studio Code (by Tomasz Wójcik)
+* BBEdit (by Watts Martin)
 
 If you've made another version of it, please fork this project and send me a pull request.
 
